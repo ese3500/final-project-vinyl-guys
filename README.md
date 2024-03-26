@@ -1,9 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/2TmiRqwI)
 # final-project-skeleton
 
-    * Team Name: 
-    * Team Members: 
-    * Github Repository URL: 
+    * Team Name: The Vinyl Guys
+    * Team Members: George Eliadis & Noah Rubin
+    * Github Repository URL: https://github.com/ese3500/final-project-vinyl-guys/
     * Github Pages Website URL: [for final submission]
     * Description of hardware: (embedded hardware, laptop, etc) 
 
@@ -11,44 +11,53 @@
 
 ### 1. Abstract
 
-In a few sentences, describe your final project. This abstract will be used as the description in the evaluation survey forms.
+We're constructing an automatic turntable that can play real vinyl records. We would like to enable listeners to automatically toggle speeds, that way we can
+listen to records of the 33 and 45 RPM speeds. We'd also like to build auto-return functionality, that way listeners can enjoy their sonic experience without
+needing to lift the cartridge themselves, like many modern turntables.
 
 ### 2. Motivation
 
-What is the problem that you are trying to solve? Why is this project interesting? What is the intended purpose?
+Vinyl records have made a strong resurgence over the past couple of years, however, traditional turntables are clunky, difficult to set up, and just plain boring. Moreover, they tend to require manual operation, which can be frustrating when you’re trying to switch between tracks while trying to sit down to relax to the music. As a vinyl nut absolutely obsessed with records, this project hits close to home, and comes with several key design features that I would prefer in a turntable of my own if given the opportunity to design and fabricate one. 
 
 ### 3. Goals
 
-These are to help guide and direct your progress.
+The primary goal is a working turntable that can play 12” and 7” vinyl records at both 33 RPM and 45 RPM speeds. Our design will make use of an out-of-box cartridge, needle and tonearm setup, affixed to our rotational motor controller that’s remotely togglable by the listener between the aforementioned speeds. We would also like our turntable to have auto-return functionality (automatically lifting and resetting the cartridge at the end of a record’s side). 
 
 ### 4. Software Requirements Specification (SRS)
 
-Formulate key software requirements here.
+This response makes more sense if you've read the hardware requirements specification first. Once the hardware functionality is nailed down, we can definitely program more and more interesting features. As a record enthusiast, I have no shortage of interesting turntable wants.
+
+Some software ideas include a mechanism for identifying when songs are lapsing, that way listeners can select individual tracks to listen to.
 
 ### 5. Hardware Requirements Specification (HRS)
 
-Formulate key hardware requirements here.
+Our first focus is constructing the turntable’s body. This includes the chassis, or casing, the platter itself, on which the spinning record will sit, as well as the tone-arm—cartridge mechanism. High-end turntable snobs fuss over minutiae of cartridges and styluses, but that is not our focus here. The automatic functionality is far more interesting from an embedded systems perspective, and you will easily be able to swap out our components for better hardware as far as cartridges go.
 
 ### 6. MVP Demo
 
-What do you expect to accomplish by the first milestone?
+In terms of the motor controller, our MVP should be able to play 12” and 7” records at different speeds (33 RPM and 45 RPM), as controlled by a potentiometer-based mechanism. 
 
 ### 7. Final Demo
 
-What do you expect to achieve by the final demonstration or after milestone 1?
+Our final demo focus involves constructing partial auto-return functionality. When we use the word “partial”, we mean the ability to lift the needle up and down, without moving it back to the rest position. Our stretch goal would then be using a pair of servos or similar to construct a robotic arm that can auto-return the cartridge fully back to its starting position.
 
 ### 8. Methodology
 
-What is your approach to the problem?
+Our methodology involves deconstructing the elements of a modern turntable, and then replicating them in automatic fashion using our microcontroller. Responses 5-7 motivate the compartmentalization our approach involves.
+
+The primary foreseeable safety issue involves the risk of damaging records or needles due to aggressive contact between the two. Paying strict attention to the contact point and potentially allowing some buffer slack could be helpful here and is something we will investigate. We will experiment with inexpensive records, which we have many of.
 
 ### 9. Components
 
-What major components do you need and why?
+- Potentiometer - controling motor controller rotational speed
+- Servo motor - for constructing our robotic arm of sorts
+- Stepper motor - Used to drive rotation
+- Buttons - for and on-off functionality
+- Switch - for speed tuning
 
 ### 10. Evaluation
 
-What is your metric for evaluating how well your product/solution solves the problem? Think critically on this section. Having a boolean metric such as “it works” is not very useful. This is akin to making a speaker and if it emits sound, albeit however terrible and ear wrenching, declare this a success.
-It is recommended that your project be something that you can take pride in. Oftentimes in interviews, you will be asked to talk about projects you have worked on.
+A successful turntable project would be the high-fidelity listening of an album’s side, with auto-return (at least in some capacity) at the end of it. Success here is very easy to observe visually and audibly.
 
 ### 11. Timeline
 
@@ -56,11 +65,11 @@ This section is to help guide your progress over the next few weeks. Feel free t
 
 | **Week**            | **Task** | **Assigned To**    |
 |----------           |--------- |------------------- |
-| Week 1: 3/24 - 3/31 |          |                    |
-| Week 2: 4/1 - 4/7   |          |                    |
-| Week 3: 4/8 - 4/14  |          |                    |
-| Week 4: 4/15 - 4/21 |          |                    |
-| Week 5: 4/22 - 4/26 |          |                    |
+| Week 1: 3/24 - 3/31 |     Construct chassis and non-microcontroller material     |        George           |
+| Week 2: 4/1 - 4/7   |   MVP construction       |         Noah, George           |
+| Week 3: 4/8 - 4/14  |    Final Demo functionality augmentation      |         Noah, George           |
+| Week 4: 4/15 - 4/21 |       Extra Software functionality   |         Noah           |
+| Week 5: 4/22 - 4/26 |     Success Measurement     |        George            |
 
 ### 12. Proposal Presentation
 

@@ -87,7 +87,7 @@ https://youtu.be/IiJ8OnKnrbQ
 ### 2. Images
 
 ![alt text](<block diagram-1.jpeg>)
-
+![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM-1.jpeg>)
 ![alt text](<WhatsApp Image 2024-04-30 at 11.05.56 PM-1.jpeg>)
 
 ![alt text](<WhatsApp Image 2024-04-30 at 11.05.56 PM-1-1.jpeg>)
@@ -95,14 +95,6 @@ https://youtu.be/IiJ8OnKnrbQ
 ![alt text](<WhatsApp Image 2024-04-30 at 11.05.56 PM-1-1-1.jpeg>)
 
 ![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1.jpeg>)
-
-![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1.jpeg>)
-
-![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1-1.jpeg>)
-
-![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1-1-1.jpeg>)
-
-![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1-1-1-1.jpeg>)
 
 ### 3. Results
 

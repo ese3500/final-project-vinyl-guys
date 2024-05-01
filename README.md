@@ -82,27 +82,53 @@ If you’ve never made a Github pages website before, you can follow this webpag
 
 ### 1. Video
 
-[Insert final project video here]
+https://youtu.be/IiJ8OnKnrbQ
 
 ### 2. Images
 
-[Insert final project images here]
+![alt text](<block diagram-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.05.56 PM-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.05.56 PM-1-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.05.56 PM-1-1-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1-1-1.jpeg>)
+
+![alt text](<WhatsApp Image 2024-04-30 at 11.16.44 PM(1)-1-1-1-1-1.jpeg>)
 
 ### 3. Results
 
 What were your results? Namely, what was the final solution/design to your problem?
 
+Yes! We have a record player that can detect a record being put down, auto-start and be controlled using a Wifi app.
+
 #### 3.1 Software Requirements Specification (SRS) Results
 
 Based on your quantified system performance, comment on how you achieved or fell short of your expected software requirements. You should be quantifying this, using measurement tools to collect data.
+
+Our SRS requirements were all fulfilled:
+
+Input pins, logic works well, ADC works, PWM works for servo control, Wifi App works
 
 #### 3.2 Hardware Requirements Specification (HRS) Results
 
 Based on your quantified system performance, comment on how you achieved or fell short of your expected hardware requirements. You should be quantifying this, using measurement tools to collect data.
 
+HRS is good as well - we were able to install the servos into the Record Player so that they control the parts we needed to control
+
 ### 4. Conclusion
 
 Reflect on your project. Some questions to consider: What did you learn from it? What went well? What accomplishments are you proud of? What did you learn/gain from this experience? Did you have to change your approach? What could have been done differently? Did you encounter obstacles that you didn’t anticipate? What could be a next step for this project?
+
+The project went well, we didn't anticipate how hard it would be to get the servos working - both in software and in installing them onto the device. Our wifi app was also glitching for a while but we got it figured out. It was a real lesson in integration, we had parts working seperately, but it took much more time than anticipated to put things together. 
 
 ## References
 
